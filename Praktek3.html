@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Latihan 1 - Bootstrap</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .artikel {
+      border: 5px solid black;
+      border-radius: 20px;
+      margin-bottom: 30px;
+      padding: 20px;
+    }
+
+    .artikel img {
+      border: 2px solid black;
+      max-width: 100%;
+      height: auto;
+    }
+
+    .artikel1 {
+      background-color: lightblue;
+    }
+
+    .artikel2 {
+      background-color: lightgreen;
+    }
+
+    h3 {
+      margin-top: 0;
+    }
+  </style>
+</head>
+<body class="bg-white py-4">
+
+  <div class="container">
+    <!-- Artikel Pertama -->
+    <div class="row artikel artikel1 align-items-center">
+      <div class="col-md-4">
+        <img src="Ssc.png" alt="Gambar Artikel 1" class="img-fluid">
+      </div>
+      <div class="col-md-8">
+        <h3><u><b>Artikel pertama</b></u></h3>
+        <p>
+          Pemrograman web atau web programming adalah istilah yang berkaitan erat dengan website dan internet. Mengapa begitu?
+          Karena web programming adalah salah satu proses pembuatan website untuk keperluan internet yang biasanya disebut
+          dengan istilah WWW atau world wide web. Istilah WWW banyak dikenal karena bagaimanapun adalah layanan internet paling
+          populer saat ini. Beberapa style, misalnya heading, subbab, bodytext, footer, images, dan style lainnya untuk digunakan
+          secara bersamaan dalam beberapa berkas (file). Pada umumnya CSS digunakan untuk memformat tampilan halaman web yang
+          dibuat dengan bahasa HTML dan XHTML.
+        </p>
+      </div>
+    </div>
+
+    <!-- Artikel Kedua -->
+    <div class="row artikel artikel2 align-items-center">
+      <div class="col-md-8">
+        <h3><u><b>Artikel kedua</b></u></h3>
+        <p>
+          CSS adalah bahasa Cascading Style Sheet dan biasanya digunakan untuk mengatur tampilan elemen yang tertulis dalam
+          bahasa markup, seperti HTML. CSS berfungsi untuk memisahkan konten dari tampilan visualnya di situs. CSS dibuat dan
+          dikembangkan oleh W3C (World Wide Web Consortium) pada tahun 1996 untuk alasan yang sederhana. Dulu HTML tidak
+          dilengkapi dengan tag yang berfungsi untuk memformat halaman. Anda hanya perlu menulis markup untuk situs. Isi web
+          konten ditampilkan (biasanya berupa hypertext atau hypermedia) yang dikirimkan ke pengguna akhir melalui World Wide
+          Web, dengan menggunakan browser web atau perangkat lunak berbasis web. Tujuan dari web design adalah untuk membuat
+          website—sekumpulan konten online termasuk dokumen dan aplikasi yang berada pada server web. Sebuah website dapat
+          berupa sekumpulan teks, gambar, suara dan konten lainnya, serta dapat bersifat interaktif ataupun statis.
+        </p>
+      </div>
+      <div class="col-md-4">
+        <img src="gb1.png" alt="Gambar Artikel 2" class="img-fluid">
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
